@@ -12,14 +12,10 @@ int main(){
     if (celsius < 15) {
         cout << "La temperatura es baja." << endl;
         return 0;
-    }
-
-    if (celsius > 15 && celsius < 25) {
+    } else if (celsius > 15 && celsius < 25) {
         cout << "La temperatura es media." << endl;
         return 0;
-    }
-
-    if (celsius > 25) {
+    } else if (celsius > 25) {
         cout << "La temperatura es alta." << endl;
         return 0;
     }
